@@ -2,6 +2,8 @@ import express from 'express';
 
 const app = express();
 
-const startServer = () => {};
+const startServer = () => {
+    console.log('running');
+};
 
 startServer();

@@ -1,0 +1,11 @@
+.vscode/
+.env
+.DS_Store
+package-lock.json
+node_modules/
+public/
+build/
+uploads/
+dist/
+.build/
+*.js

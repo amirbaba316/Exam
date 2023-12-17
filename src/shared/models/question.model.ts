@@ -37,4 +37,4 @@ const questionSchema = new Schema<IQuestion, IQuestionMethods, QuestionModel>(
 );
 
 // Create a Model
-export const Question = model<IQuestion, IQuestionMethods>('Question', questionSchema);
+export const Question = model<IQuestion, QuestionModel>('Question', questionSchema);

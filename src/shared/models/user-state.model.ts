@@ -53,4 +53,4 @@ const userStateSchema = new Schema<IUserState, IUserStateMethods, UserStateModel
 );
 
 // Create a Model
-export const UserState = model<IUserState, IUserStateMethods>('UserState', userStateSchema);
+export const UserState = model<IUserState, UserStateModel>('UserState', userStateSchema);

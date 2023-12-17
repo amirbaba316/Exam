@@ -52,7 +52,4 @@ const questionDetailsSchema = new Schema<IQuestionDetails, IQuestionDetailsMetho
 );
 
 // Create a Model
-export const QuestionDetails = model<IQuestionDetails, IQuestionDetailsMethods>(
-    'QuestionDetails',
-    questionDetailsSchema
-);
+export const QuestionDetails = model<IQuestionDetails, QuestionDetailsModel>('QuestionDetails', questionDetailsSchema);

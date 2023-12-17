@@ -31,4 +31,4 @@ const subjectSchema = new Schema<ISubject, ISubjectMethods, SubjectModel>(
 );
 
 // Create a Model
-export const Subject = model<ISubject, ISubjectMethods>('Subject', subjectSchema);
+export const Subject = model<ISubject, SubjectModel>('Subject', subjectSchema);

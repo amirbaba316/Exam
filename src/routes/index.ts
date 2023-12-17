@@ -1,5 +1,5 @@
-import courseRoutes from './course.routes';
+import userRoutes from './user.routes';
 
 export default async (app) => {
-    app.use('/api/courses', courseRoutes);
+    app.use('/api/users', userRoutes);
 };

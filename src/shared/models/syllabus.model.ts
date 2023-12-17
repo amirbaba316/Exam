@@ -67,4 +67,4 @@ const syllabusSchema = new Schema<ISyllabus, ISyllabusMethods, SyllabusModel>(
 );
 
 // Create a Model
-export const Syllabus = model<ISyllabus, ISyllabusMethods>('Syllabus', syllabusSchema);
+export const Syllabus = model<ISyllabus, DocumentModel>('Syllabus', syllabusSchema);

@@ -44,4 +44,4 @@ const testSchema = new Schema<ITest, ITestMethods, TestModel>(
 );
 
 // Create a Model
-export const Test = model<ITest, ITestMethods>('Test', testSchema);
+export const Test = model<ITest, TestModel>('Test', testSchema);

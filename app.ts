@@ -2,11 +2,11 @@ import dotenv from 'dotenv';
 import morgan from 'morgan';
 import moment from 'moment-timezone';
 import express from 'express';
-import cors from 'cors';
 import { app, server } from './src/bootstrap/server';
 import boolParser from 'express-query-boolean';
 import initDatabase from './src/bootstrap/database';
 import initRouter from './src/bootstrap/router';
+import { Subject } from './src/shared/models';
 
 dotenv.config();
 
@@ -32,3 +32,5 @@ const startServer = () => {
 };
 
 startServer();
+
+

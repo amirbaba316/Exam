@@ -2,8 +2,10 @@ FROM mhart/alpine-node:16.4
 
 WORKDIR /app
 
-COPY . /app
+COPY package.json package.json
+
+COPY ./build .
 
 RUN npm install
 
-CMD ["npm","run","dev"]
+CMD ["node","app.js"]

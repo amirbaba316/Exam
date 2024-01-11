@@ -1,0 +1,7 @@
+version: '3'
+services:
+  question-banksy:
+    image: amir316/question-banksy
+    environment:
+      - PORT=4000
+      - DATABASE_URI=mongodb+srv://AmirBaba:mongocluster%40316@cluster0.uxgyftl.mongodb.net/questionbanksy
